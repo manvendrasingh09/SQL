@@ -28,4 +28,8 @@ ORDER BY AGE, gender;
 
 SELECT *
 FROM MS.employee_demographics
-ORDER BY gender DESC, age;
+ORDER BY gender DESC, age; 
+
+SELECT *
+FROM MS.employee_demographics
+ORDER BY gender, age DESC; 
